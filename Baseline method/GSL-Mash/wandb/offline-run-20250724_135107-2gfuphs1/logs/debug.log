@@ -1,0 +1,37 @@
+2025-07-24 13:51:07,685 INFO    MainThread:14232 [wandb_setup.py:_flush():76] Current SDK version is 0.16.4
+2025-07-24 13:51:07,685 INFO    MainThread:14232 [wandb_setup.py:_flush():76] Configure stats pid to 14232
+2025-07-24 13:51:07,685 INFO    MainThread:14232 [wandb_setup.py:_flush():76] Loading settings from C:\Users\wangy\.config\wandb\settings
+2025-07-24 13:51:07,685 INFO    MainThread:14232 [wandb_setup.py:_flush():76] Loading settings from E:\python project\mashup 对比学习\GSL-Mash\wandb\settings
+2025-07-24 13:51:07,685 INFO    MainThread:14232 [wandb_setup.py:_flush():76] Loading settings from environment variables: {'api_key': '***REDACTED***', 'mode': 'offline'}
+2025-07-24 13:51:07,685 INFO    MainThread:14232 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2025-07-24 13:51:07,685 INFO    MainThread:14232 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'train.py', 'program_abspath': 'E:\\python project\\mashup 对比学习\\GSL-Mash\\train.py', 'program': 'E:\\python project\\mashup 对比学习\\GSL-Mash\\train.py'}
+2025-07-24 13:51:07,685 INFO    MainThread:14232 [wandb_init.py:_log_setup():526] Logging user logs to .\wandb\offline-run-20250724_135107-2gfuphs1\logs\debug.log
+2025-07-24 13:51:07,685 INFO    MainThread:14232 [wandb_init.py:_log_setup():527] Logging internal logs to .\wandb\offline-run-20250724_135107-2gfuphs1\logs\debug-internal.log
+2025-07-24 13:51:07,685 INFO    MainThread:14232 [wandb_init.py:init():566] calling init triggers
+2025-07-24 13:51:07,685 INFO    MainThread:14232 [wandb_init.py:init():573] wandb.init called with sweep_config: {}
+config: {}
+2025-07-24 13:51:07,686 INFO    MainThread:14232 [wandb_init.py:init():616] starting backend
+2025-07-24 13:51:07,686 INFO    MainThread:14232 [wandb_init.py:init():620] setting up manager
+2025-07-24 13:51:07,687 INFO    MainThread:14232 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=spawn, using: spawn
+2025-07-24 13:51:07,689 INFO    MainThread:14232 [wandb_init.py:init():628] backend started and connected
+2025-07-24 13:51:07,691 INFO    MainThread:14232 [wandb_init.py:init():720] updated telemetry
+2025-07-24 13:51:07,692 INFO    MainThread:14232 [wandb_init.py:init():753] communicating run to backend with 90.0 second timeout
+2025-07-24 13:51:07,697 INFO    MainThread:14232 [wandb_init.py:init():804] starting run threads in backend
+2025-07-24 13:51:08,395 WARNING MainThread:14232 [wandb_init.py:init():1198] interrupted
+Traceback (most recent call last):
+  File "D:\anaconda\envs\gsl-mash\lib\site-packages\wandb\sdk\wandb_init.py", line 1176, in init
+    run = wi.init()
+  File "D:\anaconda\envs\gsl-mash\lib\site-packages\wandb\sdk\wandb_init.py", line 817, in init
+    run_start_result = run_start_handle.wait(timeout=30)
+  File "D:\anaconda\envs\gsl-mash\lib\site-packages\wandb\sdk\lib\mailbox.py", line 283, in wait
+    found, abandoned = self._slot._get_and_clear(timeout=wait_timeout)
+  File "D:\anaconda\envs\gsl-mash\lib\site-packages\wandb\sdk\lib\mailbox.py", line 130, in _get_and_clear
+    if self._wait(timeout=timeout):
+  File "D:\anaconda\envs\gsl-mash\lib\site-packages\wandb\sdk\lib\mailbox.py", line 126, in _wait
+    return self._event.wait(timeout=timeout)
+  File "D:\anaconda\envs\gsl-mash\lib\threading.py", line 607, in wait
+    signaled = self._cond.wait(timeout)
+  File "D:\anaconda\envs\gsl-mash\lib\threading.py", line 324, in wait
+    gotit = waiter.acquire(True, timeout)
+KeyboardInterrupt
+2025-07-24 13:51:10,101 WARNING MsgRouterThr:14232 [router.py:message_loop():77] message_loop has been closed

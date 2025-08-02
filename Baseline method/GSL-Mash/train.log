@@ -1,0 +1,379 @@
+[2025-07-24 13:07:28,336][src.utils][INFO] - Disabling python warnings! <config.ignore_warnings=True>
+[2025-07-24 13:07:28,337][src.utils][INFO] - Printing config tree with Rich! <config.print_config=True>
+[2025-07-24 13:07:28,387][pytorch_lightning.utilities.seed][INFO] - Global seed set to 56
+[2025-07-24 13:07:28,447][src.training_pipeline][INFO] - Instantiating datamodule <src.datamodules.mashup_datamodule_new.MashupDataModule>
+[2025-07-24 13:07:29,544][src.training_pipeline][INFO] - Instantiating model <src.models.GSL-Mash.GSL_MASH>
+[2025-07-24 13:07:36,864][src.training_pipeline][INFO] - Instantiating callback <pytorch_lightning.callbacks.ModelCheckpoint>
+[2025-07-24 13:07:36,869][src.training_pipeline][INFO] - Instantiating callback <pytorch_lightning.callbacks.EarlyStopping>
+[2025-07-24 13:07:36,870][src.training_pipeline][INFO] - Instantiating callback <pytorch_lightning.callbacks.RichModelSummary>
+[2025-07-24 13:07:36,872][src.training_pipeline][INFO] - Instantiating callback <pytorch_lightning.callbacks.RichProgressBar>
+[2025-07-24 13:07:36,872][src.training_pipeline][INFO] - Instantiating callback <src.callbacks.wandb_callbacks.WatchModel>
+[2025-07-24 13:07:36,876][src.training_pipeline][INFO] - Instantiating callback <src.callbacks.wandb_callbacks.LogMetricsAndRunningTime>
+[2025-07-24 13:07:36,877][src.training_pipeline][INFO] - Instantiating logger <pytorch_lightning.loggers.wandb.WandbLogger>
+[2025-07-24 13:07:41,411][src.training_pipeline][INFO] - Instantiating trainer <pytorch_lightning.Trainer>
+[2025-07-24 13:07:41,415][pytorch_lightning.utilities.rank_zero][INFO] - Using 16bit native Automatic Mixed Precision (AMP)
+[2025-07-24 13:07:41,415][pytorch_lightning.utilities.rank_zero][INFO] - Trainer already configured with model summary callbacks: [<class 'pytorch_lightning.callbacks.rich_model_summary.RichModelSummary'>]. Skipping setting a default `ModelSummary` callback.
+[2025-07-24 13:07:41,417][pytorch_lightning.utilities.rank_zero][INFO] - GPU available: True, used: True
+[2025-07-24 13:07:41,417][pytorch_lightning.utilities.rank_zero][INFO] - TPU available: False, using: 0 TPU cores
+[2025-07-24 13:07:41,417][pytorch_lightning.utilities.rank_zero][INFO] - IPU available: False, using: 0 IPUs
+[2025-07-24 13:07:41,417][pytorch_lightning.utilities.rank_zero][INFO] - HPU available: False, using: 0 HPUs
+[2025-07-24 13:07:41,418][src.training_pipeline][INFO] - Logging hyperparameters!
+[2025-07-24 13:07:41,423][src.training_pipeline][INFO] - Starting training!
+[2025-07-24 13:07:42,230][pytorch_lightning.accelerators.gpu][INFO] - LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+[2025-07-24 13:10:25,595][src.utils][INFO] - Disabling python warnings! <config.ignore_warnings=True>
+[2025-07-24 13:10:25,595][src.utils][INFO] - Printing config tree with Rich! <config.print_config=True>
+[2025-07-24 13:10:25,633][pytorch_lightning.utilities.seed][INFO] - Global seed set to 56
+[2025-07-24 13:10:25,637][src.training_pipeline][INFO] - Instantiating datamodule <src.datamodules.mashup_datamodule_new.MashupDataModule>
+[2025-07-24 13:10:25,827][src.training_pipeline][INFO] - Instantiating model <src.models.GSL-Mash.GSL_MASH>
+[2025-07-24 13:10:28,718][src.training_pipeline][INFO] - Instantiating callback <pytorch_lightning.callbacks.ModelCheckpoint>
+[2025-07-24 13:10:28,723][src.training_pipeline][INFO] - Instantiating callback <pytorch_lightning.callbacks.EarlyStopping>
+[2025-07-24 13:10:28,724][src.training_pipeline][INFO] - Instantiating callback <pytorch_lightning.callbacks.RichModelSummary>
+[2025-07-24 13:10:28,724][src.training_pipeline][INFO] - Instantiating callback <pytorch_lightning.callbacks.RichProgressBar>
+[2025-07-24 13:10:28,725][src.training_pipeline][INFO] - Instantiating callback <src.callbacks.wandb_callbacks.WatchModel>
+[2025-07-24 13:10:28,727][src.training_pipeline][INFO] - Instantiating callback <src.callbacks.wandb_callbacks.LogMetricsAndRunningTime>
+[2025-07-24 13:10:28,729][src.training_pipeline][INFO] - Instantiating logger <pytorch_lightning.loggers.wandb.WandbLogger>
+[2025-07-24 13:10:31,024][src.training_pipeline][INFO] - Instantiating trainer <pytorch_lightning.Trainer>
+[2025-07-24 13:10:31,028][pytorch_lightning.utilities.rank_zero][INFO] - Using 16bit native Automatic Mixed Precision (AMP)
+[2025-07-24 13:10:31,028][pytorch_lightning.utilities.rank_zero][INFO] - Trainer already configured with model summary callbacks: [<class 'pytorch_lightning.callbacks.rich_model_summary.RichModelSummary'>]. Skipping setting a default `ModelSummary` callback.
+[2025-07-24 13:10:31,029][pytorch_lightning.utilities.rank_zero][INFO] - GPU available: True, used: True
+[2025-07-24 13:10:31,029][pytorch_lightning.utilities.rank_zero][INFO] - TPU available: False, using: 0 TPU cores
+[2025-07-24 13:10:31,029][pytorch_lightning.utilities.rank_zero][INFO] - IPU available: False, using: 0 IPUs
+[2025-07-24 13:10:31,029][pytorch_lightning.utilities.rank_zero][INFO] - HPU available: False, using: 0 HPUs
+[2025-07-24 13:10:31,029][src.training_pipeline][INFO] - Logging hyperparameters!
+[2025-07-24 13:10:31,035][src.training_pipeline][INFO] - Starting training!
+[2025-07-24 13:10:31,313][pytorch_lightning.accelerators.gpu][INFO] - LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+[2025-07-24 13:35:50,367][src.training_pipeline][INFO] - Starting testing!
+[2025-07-24 13:35:50,515][pytorch_lightning.utilities.rank_zero][INFO] - Restoring states from the checkpoint path at checkpoints/epoch_078.ckpt
+[2025-07-24 13:35:50,595][pytorch_lightning.accelerators.gpu][INFO] - LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+[2025-07-24 13:35:50,599][pytorch_lightning.utilities.rank_zero][INFO] - Loaded model weights from checkpoint at checkpoints/epoch_078.ckpt
+[2025-07-24 13:36:04,113][src.training_pipeline][INFO] - Finalizing!
+[2025-07-24 13:36:06,309][src.training_pipeline][INFO] - Best model ckpt at checkpoints/epoch_078.ckpt
+[2025-07-24 13:43:33,570][src.utils][INFO] - Disabling python warnings! <config.ignore_warnings=True>
+[2025-07-24 13:43:33,570][src.utils][INFO] - Printing config tree with Rich! <config.print_config=True>
+[2025-07-24 13:43:33,611][pytorch_lightning.utilities.seed][INFO] - Global seed set to 56
+[2025-07-24 13:43:33,614][src.training_pipeline][INFO] - Instantiating datamodule <src.datamodules.mashup_datamodule_new.MashupDataModule>
+[2025-07-24 13:43:33,837][src.training_pipeline][INFO] - Instantiating model <src.models.GSL-Mash.GSL_MASH>
+[2025-07-24 13:43:36,971][src.training_pipeline][INFO] - Instantiating callback <pytorch_lightning.callbacks.ModelCheckpoint>
+[2025-07-24 13:43:36,975][src.training_pipeline][INFO] - Instantiating callback <pytorch_lightning.callbacks.EarlyStopping>
+[2025-07-24 13:43:36,976][src.training_pipeline][INFO] - Instantiating callback <pytorch_lightning.callbacks.RichModelSummary>
+[2025-07-24 13:43:36,976][src.training_pipeline][INFO] - Instantiating callback <pytorch_lightning.callbacks.RichProgressBar>
+[2025-07-24 13:43:36,977][src.training_pipeline][INFO] - Instantiating callback <src.callbacks.wandb_callbacks.WatchModel>
+[2025-07-24 13:43:36,978][src.training_pipeline][INFO] - Instantiating callback <src.callbacks.wandb_callbacks.LogMetricsAndRunningTime>
+[2025-07-24 13:43:36,980][src.training_pipeline][INFO] - Instantiating logger <pytorch_lightning.loggers.wandb.WandbLogger>
+[2025-07-24 13:43:39,095][src.training_pipeline][INFO] - Instantiating trainer <pytorch_lightning.Trainer>
+[2025-07-24 13:43:39,099][pytorch_lightning.utilities.rank_zero][INFO] - Using 16bit native Automatic Mixed Precision (AMP)
+[2025-07-24 13:43:39,099][pytorch_lightning.utilities.rank_zero][INFO] - Trainer already configured with model summary callbacks: [<class 'pytorch_lightning.callbacks.rich_model_summary.RichModelSummary'>]. Skipping setting a default `ModelSummary` callback.
+[2025-07-24 13:43:39,100][pytorch_lightning.utilities.rank_zero][INFO] - GPU available: True, used: True
+[2025-07-24 13:43:39,100][pytorch_lightning.utilities.rank_zero][INFO] - TPU available: False, using: 0 TPU cores
+[2025-07-24 13:43:39,100][pytorch_lightning.utilities.rank_zero][INFO] - IPU available: False, using: 0 IPUs
+[2025-07-24 13:43:39,100][pytorch_lightning.utilities.rank_zero][INFO] - HPU available: False, using: 0 HPUs
+[2025-07-24 13:43:39,100][src.training_pipeline][INFO] - Logging hyperparameters!
+[2025-07-24 13:43:39,106][src.training_pipeline][INFO] - Starting training!
+[2025-07-24 13:51:03,211][src.utils][INFO] - Disabling python warnings! <config.ignore_warnings=True>
+[2025-07-24 13:51:03,211][src.utils][INFO] - Printing config tree with Rich! <config.print_config=True>
+[2025-07-24 13:51:03,251][pytorch_lightning.utilities.seed][INFO] - Global seed set to 56
+[2025-07-24 13:51:03,254][src.training_pipeline][INFO] - Instantiating datamodule <src.datamodules.mashup_datamodule_new.MashupDataModule>
+[2025-07-24 13:51:03,445][src.training_pipeline][INFO] - Instantiating model <src.models.GSL-Mash.GSL_MASH>
+[2025-07-24 13:51:06,322][src.training_pipeline][INFO] - Instantiating callback <pytorch_lightning.callbacks.ModelCheckpoint>
+[2025-07-24 13:51:06,327][src.training_pipeline][INFO] - Instantiating callback <pytorch_lightning.callbacks.EarlyStopping>
+[2025-07-24 13:51:06,328][src.training_pipeline][INFO] - Instantiating callback <pytorch_lightning.callbacks.RichModelSummary>
+[2025-07-24 13:51:06,328][src.training_pipeline][INFO] - Instantiating callback <pytorch_lightning.callbacks.RichProgressBar>
+[2025-07-24 13:51:06,329][src.training_pipeline][INFO] - Instantiating callback <src.callbacks.wandb_callbacks.WatchModel>
+[2025-07-24 13:51:06,331][src.training_pipeline][INFO] - Instantiating callback <src.callbacks.wandb_callbacks.LogMetricsAndRunningTime>
+[2025-07-24 13:51:06,332][src.training_pipeline][INFO] - Instantiating logger <pytorch_lightning.loggers.wandb.WandbLogger>
+[2025-07-24 13:51:34,757][src.utils][INFO] - Disabling python warnings! <config.ignore_warnings=True>
+[2025-07-24 13:51:34,758][src.utils][INFO] - Printing config tree with Rich! <config.print_config=True>
+[2025-07-24 13:51:34,796][pytorch_lightning.utilities.seed][INFO] - Global seed set to 56
+[2025-07-24 13:51:34,799][src.training_pipeline][INFO] - Instantiating datamodule <src.datamodules.mashup_datamodule_new.MashupDataModule>
+[2025-07-24 13:51:34,987][src.training_pipeline][INFO] - Instantiating model <src.models.GSL-Mash.GSL_MASH>
+[2025-07-24 13:51:38,000][src.training_pipeline][INFO] - Instantiating callback <pytorch_lightning.callbacks.ModelCheckpoint>
+[2025-07-24 13:51:38,005][src.training_pipeline][INFO] - Instantiating callback <pytorch_lightning.callbacks.EarlyStopping>
+[2025-07-24 13:51:38,006][src.training_pipeline][INFO] - Instantiating callback <pytorch_lightning.callbacks.RichModelSummary>
+[2025-07-24 13:51:38,007][src.training_pipeline][INFO] - Instantiating callback <pytorch_lightning.callbacks.RichProgressBar>
+[2025-07-24 13:51:38,007][src.training_pipeline][INFO] - Instantiating callback <src.callbacks.wandb_callbacks.WatchModel>
+[2025-07-24 13:51:38,009][src.training_pipeline][INFO] - Instantiating callback <src.callbacks.wandb_callbacks.LogMetricsAndRunningTime>
+[2025-07-24 13:51:38,011][src.training_pipeline][INFO] - Instantiating logger <pytorch_lightning.loggers.wandb.WandbLogger>
+[2025-07-24 13:51:40,294][src.training_pipeline][INFO] - Instantiating trainer <pytorch_lightning.Trainer>
+[2025-07-24 13:51:40,299][pytorch_lightning.utilities.rank_zero][INFO] - Using 16bit native Automatic Mixed Precision (AMP)
+[2025-07-24 13:51:40,300][pytorch_lightning.utilities.rank_zero][INFO] - Trainer already configured with model summary callbacks: [<class 'pytorch_lightning.callbacks.rich_model_summary.RichModelSummary'>]. Skipping setting a default `ModelSummary` callback.
+[2025-07-24 13:51:40,300][pytorch_lightning.utilities.rank_zero][INFO] - GPU available: True, used: True
+[2025-07-24 13:51:40,300][pytorch_lightning.utilities.rank_zero][INFO] - TPU available: False, using: 0 TPU cores
+[2025-07-24 13:51:40,300][pytorch_lightning.utilities.rank_zero][INFO] - IPU available: False, using: 0 IPUs
+[2025-07-24 13:51:40,301][pytorch_lightning.utilities.rank_zero][INFO] - HPU available: False, using: 0 HPUs
+[2025-07-24 13:51:40,301][src.training_pipeline][INFO] - Logging hyperparameters!
+[2025-07-24 13:51:40,307][src.training_pipeline][INFO] - Starting training!
+[2025-07-24 13:51:40,585][pytorch_lightning.accelerators.gpu][INFO] - LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+[2025-07-24 14:17:27,529][src.training_pipeline][INFO] - Starting testing!
+[2025-07-24 14:17:27,659][pytorch_lightning.utilities.rank_zero][INFO] - Restoring states from the checkpoint path at checkpoints/epoch_078-v1.ckpt
+[2025-07-24 14:17:27,725][pytorch_lightning.accelerators.gpu][INFO] - LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+[2025-07-24 14:17:27,735][pytorch_lightning.utilities.rank_zero][INFO] - Loaded model weights from checkpoint at checkpoints/epoch_078-v1.ckpt
+[2025-07-24 14:17:39,961][src.training_pipeline][INFO] - Finalizing!
+[2025-07-24 14:17:41,879][src.training_pipeline][INFO] - Best model ckpt at checkpoints/epoch_078-v1.ckpt
+[2025-07-24 14:49:27,722][src.utils][INFO] - Disabling python warnings! <config.ignore_warnings=True>
+[2025-07-24 14:49:27,723][src.utils][INFO] - Printing config tree with Rich! <config.print_config=True>
+[2025-07-24 14:49:27,762][pytorch_lightning.utilities.seed][INFO] - Global seed set to 56
+[2025-07-24 14:49:27,764][src.training_pipeline][INFO] - Instantiating datamodule <src.datamodules.mashup_datamodule_new.MashupDataModule>
+[2025-07-24 14:49:27,981][src.training_pipeline][INFO] - Instantiating model <src.models.GSL-Mash.GSL_MASH>
+[2025-07-24 14:49:31,013][src.training_pipeline][INFO] - Instantiating callback <pytorch_lightning.callbacks.ModelCheckpoint>
+[2025-07-24 14:49:31,017][src.training_pipeline][INFO] - Instantiating callback <pytorch_lightning.callbacks.EarlyStopping>
+[2025-07-24 14:49:31,017][src.training_pipeline][INFO] - Instantiating callback <pytorch_lightning.callbacks.RichModelSummary>
+[2025-07-24 14:49:31,018][src.training_pipeline][INFO] - Instantiating callback <pytorch_lightning.callbacks.RichProgressBar>
+[2025-07-24 14:49:31,018][src.training_pipeline][INFO] - Instantiating callback <src.callbacks.wandb_callbacks.WatchModel>
+[2025-07-24 14:49:31,020][src.training_pipeline][INFO] - Instantiating callback <src.callbacks.wandb_callbacks.LogMetricsAndRunningTime>
+[2025-07-24 14:49:31,021][src.training_pipeline][INFO] - Instantiating logger <pytorch_lightning.loggers.wandb.WandbLogger>
+[2025-07-24 14:49:33,087][src.training_pipeline][INFO] - Instantiating trainer <pytorch_lightning.Trainer>
+[2025-07-24 14:49:33,092][pytorch_lightning.utilities.rank_zero][INFO] - Using 16bit native Automatic Mixed Precision (AMP)
+[2025-07-24 14:49:33,093][pytorch_lightning.utilities.rank_zero][INFO] - Trainer already configured with model summary callbacks: [<class 'pytorch_lightning.callbacks.rich_model_summary.RichModelSummary'>]. Skipping setting a default `ModelSummary` callback.
+[2025-07-24 14:49:33,093][pytorch_lightning.utilities.rank_zero][INFO] - GPU available: True, used: True
+[2025-07-24 14:49:33,093][pytorch_lightning.utilities.rank_zero][INFO] - TPU available: False, using: 0 TPU cores
+[2025-07-24 14:49:33,093][pytorch_lightning.utilities.rank_zero][INFO] - IPU available: False, using: 0 IPUs
+[2025-07-24 14:49:33,093][pytorch_lightning.utilities.rank_zero][INFO] - HPU available: False, using: 0 HPUs
+[2025-07-24 14:49:33,094][src.training_pipeline][INFO] - Logging hyperparameters!
+[2025-07-24 14:49:33,099][src.training_pipeline][INFO] - Starting training!
+[2025-07-24 14:49:33,374][pytorch_lightning.accelerators.gpu][INFO] - LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+[2025-07-24 14:50:56,786][src.training_pipeline][INFO] - Starting testing!
+[2025-07-24 14:50:56,936][pytorch_lightning.utilities.rank_zero][INFO] - Restoring states from the checkpoint path at checkpoints/epoch_003.ckpt
+[2025-07-24 14:50:57,047][pytorch_lightning.accelerators.gpu][INFO] - LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+[2025-07-24 14:50:57,051][pytorch_lightning.utilities.rank_zero][INFO] - Loaded model weights from checkpoint at checkpoints/epoch_003.ckpt
+[2025-07-24 14:51:08,864][src.training_pipeline][INFO] - Finalizing!
+[2025-07-24 14:51:10,669][src.training_pipeline][INFO] - Best model ckpt at checkpoints/epoch_003.ckpt
+[2025-07-24 14:51:19,633][src.utils][INFO] - Disabling python warnings! <config.ignore_warnings=True>
+[2025-07-24 14:51:19,633][src.utils][INFO] - Printing config tree with Rich! <config.print_config=True>
+[2025-07-24 14:51:19,675][pytorch_lightning.utilities.seed][INFO] - Global seed set to 56
+[2025-07-24 14:51:19,679][src.training_pipeline][INFO] - Instantiating datamodule <src.datamodules.mashup_datamodule_new.MashupDataModule>
+[2025-07-24 14:51:19,884][src.training_pipeline][INFO] - Instantiating model <src.models.GSL-Mash.GSL_MASH>
+[2025-07-24 14:51:22,733][src.training_pipeline][INFO] - Instantiating callback <pytorch_lightning.callbacks.ModelCheckpoint>
+[2025-07-24 14:51:22,736][src.training_pipeline][INFO] - Instantiating callback <pytorch_lightning.callbacks.EarlyStopping>
+[2025-07-24 14:51:22,737][src.training_pipeline][INFO] - Instantiating callback <pytorch_lightning.callbacks.RichModelSummary>
+[2025-07-24 14:51:22,738][src.training_pipeline][INFO] - Instantiating callback <pytorch_lightning.callbacks.RichProgressBar>
+[2025-07-24 14:51:22,738][src.training_pipeline][INFO] - Instantiating callback <src.callbacks.wandb_callbacks.WatchModel>
+[2025-07-24 14:51:22,740][src.training_pipeline][INFO] - Instantiating callback <src.callbacks.wandb_callbacks.LogMetricsAndRunningTime>
+[2025-07-24 14:51:22,741][src.training_pipeline][INFO] - Instantiating logger <pytorch_lightning.loggers.wandb.WandbLogger>
+[2025-07-24 14:51:24,816][src.training_pipeline][INFO] - Instantiating trainer <pytorch_lightning.Trainer>
+[2025-07-24 14:51:24,820][pytorch_lightning.utilities.rank_zero][INFO] - Using 16bit native Automatic Mixed Precision (AMP)
+[2025-07-24 14:51:24,821][pytorch_lightning.utilities.rank_zero][INFO] - Trainer already configured with model summary callbacks: [<class 'pytorch_lightning.callbacks.rich_model_summary.RichModelSummary'>]. Skipping setting a default `ModelSummary` callback.
+[2025-07-24 14:51:24,821][pytorch_lightning.utilities.rank_zero][INFO] - GPU available: True, used: True
+[2025-07-24 14:51:24,821][pytorch_lightning.utilities.rank_zero][INFO] - TPU available: False, using: 0 TPU cores
+[2025-07-24 14:51:24,821][pytorch_lightning.utilities.rank_zero][INFO] - IPU available: False, using: 0 IPUs
+[2025-07-24 14:51:24,821][pytorch_lightning.utilities.rank_zero][INFO] - HPU available: False, using: 0 HPUs
+[2025-07-24 14:51:24,823][src.training_pipeline][INFO] - Logging hyperparameters!
+[2025-07-24 14:51:24,828][src.training_pipeline][INFO] - Starting training!
+[2025-07-24 14:51:25,100][pytorch_lightning.accelerators.gpu][INFO] - LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+[2025-07-24 15:15:58,110][src.training_pipeline][INFO] - Starting testing!
+[2025-07-24 15:15:58,284][pytorch_lightning.utilities.rank_zero][INFO] - Restoring states from the checkpoint path at checkpoints/epoch_075.ckpt
+[2025-07-24 15:15:58,348][pytorch_lightning.accelerators.gpu][INFO] - LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+[2025-07-24 15:15:58,366][pytorch_lightning.utilities.rank_zero][INFO] - Loaded model weights from checkpoint at checkpoints/epoch_075.ckpt
+[2025-07-24 15:16:11,855][src.training_pipeline][INFO] - Finalizing!
+[2025-07-24 15:16:13,828][src.training_pipeline][INFO] - Best model ckpt at checkpoints/epoch_075.ckpt
+[2025-07-24 15:30:13,773][src.utils][INFO] - Disabling python warnings! <config.ignore_warnings=True>
+[2025-07-24 15:30:13,773][src.utils][INFO] - Printing config tree with Rich! <config.print_config=True>
+[2025-07-24 15:30:13,814][pytorch_lightning.utilities.seed][INFO] - Global seed set to 56
+[2025-07-24 15:30:13,816][src.training_pipeline][INFO] - Instantiating datamodule <src.datamodules.mashup_datamodule_new.MashupDataModule>
+[2025-07-24 15:30:14,027][src.training_pipeline][INFO] - Instantiating model <src.models.GSL-Mash.GSL_MASH>
+[2025-07-24 15:30:17,149][src.training_pipeline][INFO] - Instantiating callback <pytorch_lightning.callbacks.ModelCheckpoint>
+[2025-07-24 15:30:17,154][src.training_pipeline][INFO] - Instantiating callback <pytorch_lightning.callbacks.EarlyStopping>
+[2025-07-24 15:30:17,154][src.training_pipeline][INFO] - Instantiating callback <pytorch_lightning.callbacks.RichModelSummary>
+[2025-07-24 15:30:17,155][src.training_pipeline][INFO] - Instantiating callback <pytorch_lightning.callbacks.RichProgressBar>
+[2025-07-24 15:30:17,155][src.training_pipeline][INFO] - Instantiating callback <src.callbacks.wandb_callbacks.WatchModel>
+[2025-07-24 15:30:17,158][src.training_pipeline][INFO] - Instantiating callback <src.callbacks.wandb_callbacks.LogMetricsAndRunningTime>
+[2025-07-24 15:30:17,159][src.training_pipeline][INFO] - Instantiating logger <pytorch_lightning.loggers.wandb.WandbLogger>
+[2025-07-24 15:30:19,228][src.training_pipeline][INFO] - Instantiating trainer <pytorch_lightning.Trainer>
+[2025-07-24 15:30:19,234][pytorch_lightning.utilities.rank_zero][INFO] - Using 16bit native Automatic Mixed Precision (AMP)
+[2025-07-24 15:30:19,236][pytorch_lightning.utilities.rank_zero][INFO] - Trainer already configured with model summary callbacks: [<class 'pytorch_lightning.callbacks.rich_model_summary.RichModelSummary'>]. Skipping setting a default `ModelSummary` callback.
+[2025-07-24 15:30:19,236][pytorch_lightning.utilities.rank_zero][INFO] - GPU available: True, used: True
+[2025-07-24 15:30:19,236][pytorch_lightning.utilities.rank_zero][INFO] - TPU available: False, using: 0 TPU cores
+[2025-07-24 15:30:19,236][pytorch_lightning.utilities.rank_zero][INFO] - IPU available: False, using: 0 IPUs
+[2025-07-24 15:30:19,237][pytorch_lightning.utilities.rank_zero][INFO] - HPU available: False, using: 0 HPUs
+[2025-07-24 15:30:19,237][src.training_pipeline][INFO] - Logging hyperparameters!
+[2025-07-24 15:30:19,243][src.training_pipeline][INFO] - Starting training!
+[2025-07-24 15:30:19,517][pytorch_lightning.accelerators.gpu][INFO] - LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+[2025-07-24 15:55:27,978][src.training_pipeline][INFO] - Starting testing!
+[2025-07-24 15:55:28,127][pytorch_lightning.utilities.rank_zero][INFO] - Restoring states from the checkpoint path at checkpoints/epoch_078-v2.ckpt
+[2025-07-24 15:55:28,209][pytorch_lightning.accelerators.gpu][INFO] - LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+[2025-07-24 15:55:28,217][pytorch_lightning.utilities.rank_zero][INFO] - Loaded model weights from checkpoint at checkpoints/epoch_078-v2.ckpt
+[2025-07-24 15:55:40,281][src.training_pipeline][INFO] - Finalizing!
+[2025-07-24 15:55:42,386][src.training_pipeline][INFO] - Best model ckpt at checkpoints/epoch_078-v2.ckpt
+[2025-07-24 16:02:41,567][src.utils][INFO] - Disabling python warnings! <config.ignore_warnings=True>
+[2025-07-24 16:02:41,567][src.utils][INFO] - Printing config tree with Rich! <config.print_config=True>
+[2025-07-24 16:02:41,607][pytorch_lightning.utilities.seed][INFO] - Global seed set to 56
+[2025-07-24 16:02:41,609][src.training_pipeline][INFO] - Instantiating datamodule <src.datamodules.mashup_datamodule_new.MashupDataModule>
+[2025-07-24 16:02:41,817][src.training_pipeline][INFO] - Instantiating model <src.models.GSL-Mash.GSL_MASH>
+[2025-07-24 16:02:44,719][src.training_pipeline][INFO] - Instantiating callback <pytorch_lightning.callbacks.ModelCheckpoint>
+[2025-07-24 16:02:44,723][src.training_pipeline][INFO] - Instantiating callback <pytorch_lightning.callbacks.EarlyStopping>
+[2025-07-24 16:02:44,724][src.training_pipeline][INFO] - Instantiating callback <pytorch_lightning.callbacks.RichModelSummary>
+[2025-07-24 16:02:44,725][src.training_pipeline][INFO] - Instantiating callback <pytorch_lightning.callbacks.RichProgressBar>
+[2025-07-24 16:02:44,725][src.training_pipeline][INFO] - Instantiating callback <src.callbacks.wandb_callbacks.WatchModel>
+[2025-07-24 16:02:44,727][src.training_pipeline][INFO] - Instantiating callback <src.callbacks.wandb_callbacks.LogMetricsAndRunningTime>
+[2025-07-24 16:02:44,729][src.training_pipeline][INFO] - Instantiating logger <pytorch_lightning.loggers.wandb.WandbLogger>
+[2025-07-24 16:02:46,825][src.training_pipeline][INFO] - Instantiating trainer <pytorch_lightning.Trainer>
+[2025-07-24 16:02:46,829][pytorch_lightning.utilities.rank_zero][INFO] - Using 16bit native Automatic Mixed Precision (AMP)
+[2025-07-24 16:02:46,831][pytorch_lightning.utilities.rank_zero][INFO] - Trainer already configured with model summary callbacks: [<class 'pytorch_lightning.callbacks.rich_model_summary.RichModelSummary'>]. Skipping setting a default `ModelSummary` callback.
+[2025-07-24 16:02:46,831][pytorch_lightning.utilities.rank_zero][INFO] - GPU available: True, used: True
+[2025-07-24 16:02:46,832][pytorch_lightning.utilities.rank_zero][INFO] - TPU available: False, using: 0 TPU cores
+[2025-07-24 16:02:46,832][pytorch_lightning.utilities.rank_zero][INFO] - IPU available: False, using: 0 IPUs
+[2025-07-24 16:02:46,832][pytorch_lightning.utilities.rank_zero][INFO] - HPU available: False, using: 0 HPUs
+[2025-07-24 16:02:46,832][src.training_pipeline][INFO] - Logging hyperparameters!
+[2025-07-24 16:02:46,839][src.training_pipeline][INFO] - Starting training!
+[2025-07-24 16:02:47,107][pytorch_lightning.accelerators.gpu][INFO] - LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+[2025-07-24 16:33:43,004][src.training_pipeline][INFO] - Starting testing!
+[2025-07-24 16:33:43,128][pytorch_lightning.utilities.rank_zero][INFO] - Restoring states from the checkpoint path at checkpoints/epoch_094.ckpt
+[2025-07-24 16:33:43,200][pytorch_lightning.accelerators.gpu][INFO] - LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+[2025-07-24 16:33:43,208][pytorch_lightning.utilities.rank_zero][INFO] - Loaded model weights from checkpoint at checkpoints/epoch_094.ckpt
+[2025-07-24 16:33:56,056][src.training_pipeline][INFO] - Finalizing!
+[2025-07-24 16:33:58,035][src.training_pipeline][INFO] - Best model ckpt at checkpoints/epoch_094.ckpt
+[2025-07-24 16:36:29,713][src.utils][INFO] - Disabling python warnings! <config.ignore_warnings=True>
+[2025-07-24 16:36:29,713][src.utils][INFO] - Printing config tree with Rich! <config.print_config=True>
+[2025-07-24 16:36:29,754][pytorch_lightning.utilities.seed][INFO] - Global seed set to 56
+[2025-07-24 16:36:29,757][src.training_pipeline][INFO] - Instantiating datamodule <src.datamodules.mashup_datamodule_new.MashupDataModule>
+[2025-07-24 16:36:29,949][src.training_pipeline][INFO] - Instantiating model <src.models.GSL-Mash.GSL_MASH>
+[2025-07-24 16:36:32,793][src.training_pipeline][INFO] - Instantiating callback <pytorch_lightning.callbacks.ModelCheckpoint>
+[2025-07-24 16:36:32,797][src.training_pipeline][INFO] - Instantiating callback <pytorch_lightning.callbacks.EarlyStopping>
+[2025-07-24 16:36:32,797][src.training_pipeline][INFO] - Instantiating callback <pytorch_lightning.callbacks.RichModelSummary>
+[2025-07-24 16:36:32,798][src.training_pipeline][INFO] - Instantiating callback <pytorch_lightning.callbacks.RichProgressBar>
+[2025-07-24 16:36:32,799][src.training_pipeline][INFO] - Instantiating callback <src.callbacks.wandb_callbacks.WatchModel>
+[2025-07-24 16:36:32,801][src.training_pipeline][INFO] - Instantiating callback <src.callbacks.wandb_callbacks.LogMetricsAndRunningTime>
+[2025-07-24 16:36:32,802][src.training_pipeline][INFO] - Instantiating logger <pytorch_lightning.loggers.wandb.WandbLogger>
+[2025-07-24 16:36:34,877][src.training_pipeline][INFO] - Instantiating trainer <pytorch_lightning.Trainer>
+[2025-07-24 16:36:34,883][pytorch_lightning.utilities.rank_zero][INFO] - Using 16bit native Automatic Mixed Precision (AMP)
+[2025-07-24 16:36:34,884][pytorch_lightning.utilities.rank_zero][INFO] - Trainer already configured with model summary callbacks: [<class 'pytorch_lightning.callbacks.rich_model_summary.RichModelSummary'>]. Skipping setting a default `ModelSummary` callback.
+[2025-07-24 16:36:34,885][pytorch_lightning.utilities.rank_zero][INFO] - GPU available: True, used: True
+[2025-07-24 16:36:34,885][pytorch_lightning.utilities.rank_zero][INFO] - TPU available: False, using: 0 TPU cores
+[2025-07-24 16:36:34,885][pytorch_lightning.utilities.rank_zero][INFO] - IPU available: False, using: 0 IPUs
+[2025-07-24 16:36:34,885][pytorch_lightning.utilities.rank_zero][INFO] - HPU available: False, using: 0 HPUs
+[2025-07-24 16:36:34,886][src.training_pipeline][INFO] - Logging hyperparameters!
+[2025-07-24 16:36:34,892][src.training_pipeline][INFO] - Starting training!
+[2025-07-24 16:36:35,165][pytorch_lightning.accelerators.gpu][INFO] - LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+[2025-07-24 17:02:22,337][src.training_pipeline][INFO] - Starting testing!
+[2025-07-24 17:02:22,467][pytorch_lightning.utilities.rank_zero][INFO] - Restoring states from the checkpoint path at checkpoints/epoch_078-v3.ckpt
+[2025-07-24 17:02:22,527][pytorch_lightning.accelerators.gpu][INFO] - LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+[2025-07-24 17:02:22,535][pytorch_lightning.utilities.rank_zero][INFO] - Loaded model weights from checkpoint at checkpoints/epoch_078-v3.ckpt
+[2025-07-24 17:02:34,793][src.training_pipeline][INFO] - Finalizing!
+[2025-07-24 17:02:36,645][src.training_pipeline][INFO] - Best model ckpt at checkpoints/epoch_078-v3.ckpt
+[2025-07-25 11:13:22,505][src.utils][INFO] - Disabling python warnings! <config.ignore_warnings=True>
+[2025-07-25 11:13:22,505][src.utils][INFO] - Printing config tree with Rich! <config.print_config=True>
+[2025-07-25 11:13:22,554][pytorch_lightning.utilities.seed][INFO] - Global seed set to 56
+[2025-07-25 11:13:22,628][src.training_pipeline][INFO] - Instantiating datamodule <src.datamodules.mashup_datamodule_new.MashupDataModule>
+[2025-07-25 11:13:23,844][src.training_pipeline][INFO] - Instantiating model <src.models.GSL-Mash.GSL_MASH>
+[2025-07-25 11:13:31,829][src.training_pipeline][INFO] - Instantiating callback <pytorch_lightning.callbacks.ModelCheckpoint>
+[2025-07-25 11:13:31,835][src.training_pipeline][INFO] - Instantiating callback <pytorch_lightning.callbacks.EarlyStopping>
+[2025-07-25 11:13:31,837][src.training_pipeline][INFO] - Instantiating callback <pytorch_lightning.callbacks.RichModelSummary>
+[2025-07-25 11:13:31,838][src.training_pipeline][INFO] - Instantiating callback <pytorch_lightning.callbacks.RichProgressBar>
+[2025-07-25 11:13:31,839][src.training_pipeline][INFO] - Instantiating callback <src.callbacks.wandb_callbacks.WatchModel>
+[2025-07-25 11:13:31,843][src.training_pipeline][INFO] - Instantiating callback <src.callbacks.wandb_callbacks.LogMetricsAndRunningTime>
+[2025-07-25 11:13:31,844][src.training_pipeline][INFO] - Instantiating logger <pytorch_lightning.loggers.wandb.WandbLogger>
+[2025-07-25 11:13:36,666][src.training_pipeline][INFO] - Instantiating trainer <pytorch_lightning.Trainer>
+[2025-07-25 11:13:36,671][pytorch_lightning.utilities.rank_zero][INFO] - Using 16bit native Automatic Mixed Precision (AMP)
+[2025-07-25 11:13:36,671][pytorch_lightning.utilities.rank_zero][INFO] - Trainer already configured with model summary callbacks: [<class 'pytorch_lightning.callbacks.rich_model_summary.RichModelSummary'>]. Skipping setting a default `ModelSummary` callback.
+[2025-07-25 11:13:36,671][pytorch_lightning.utilities.rank_zero][INFO] - GPU available: True, used: True
+[2025-07-25 11:13:36,672][pytorch_lightning.utilities.rank_zero][INFO] - TPU available: False, using: 0 TPU cores
+[2025-07-25 11:13:36,672][pytorch_lightning.utilities.rank_zero][INFO] - IPU available: False, using: 0 IPUs
+[2025-07-25 11:13:36,672][pytorch_lightning.utilities.rank_zero][INFO] - HPU available: False, using: 0 HPUs
+[2025-07-25 11:13:36,673][src.training_pipeline][INFO] - Logging hyperparameters!
+[2025-07-25 11:13:36,678][src.training_pipeline][INFO] - Starting training!
+[2025-07-25 11:13:37,477][pytorch_lightning.accelerators.gpu][INFO] - LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+[2025-07-25 11:19:20,722][src.training_pipeline][INFO] - Starting testing!
+[2025-07-25 11:19:20,842][pytorch_lightning.utilities.rank_zero][INFO] - Restoring states from the checkpoint path at checkpoints/epoch_016.ckpt
+[2025-07-25 11:19:20,925][pytorch_lightning.accelerators.gpu][INFO] - LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+[2025-07-25 11:19:20,929][pytorch_lightning.utilities.rank_zero][INFO] - Loaded model weights from checkpoint at checkpoints/epoch_016.ckpt
+[2025-07-25 11:19:32,988][src.training_pipeline][INFO] - Finalizing!
+[2025-07-25 11:19:34,716][src.training_pipeline][INFO] - Best model ckpt at checkpoints/epoch_016.ckpt
+[2025-07-25 11:19:44,160][src.utils][INFO] - Disabling python warnings! <config.ignore_warnings=True>
+[2025-07-25 11:19:44,160][src.utils][INFO] - Printing config tree with Rich! <config.print_config=True>
+[2025-07-25 11:19:44,201][pytorch_lightning.utilities.seed][INFO] - Global seed set to 56
+[2025-07-25 11:19:44,204][src.training_pipeline][INFO] - Instantiating datamodule <src.datamodules.mashup_datamodule_new.MashupDataModule>
+[2025-07-25 11:19:44,415][src.training_pipeline][INFO] - Instantiating model <src.models.GSL-Mash.GSL_MASH>
+[2025-07-25 11:19:47,424][src.training_pipeline][INFO] - Instantiating callback <pytorch_lightning.callbacks.ModelCheckpoint>
+[2025-07-25 11:19:47,427][src.training_pipeline][INFO] - Instantiating callback <pytorch_lightning.callbacks.EarlyStopping>
+[2025-07-25 11:19:47,428][src.training_pipeline][INFO] - Instantiating callback <pytorch_lightning.callbacks.RichModelSummary>
+[2025-07-25 11:19:47,429][src.training_pipeline][INFO] - Instantiating callback <pytorch_lightning.callbacks.RichProgressBar>
+[2025-07-25 11:19:47,429][src.training_pipeline][INFO] - Instantiating callback <src.callbacks.wandb_callbacks.WatchModel>
+[2025-07-25 11:19:47,432][src.training_pipeline][INFO] - Instantiating callback <src.callbacks.wandb_callbacks.LogMetricsAndRunningTime>
+[2025-07-25 11:19:47,433][src.training_pipeline][INFO] - Instantiating logger <pytorch_lightning.loggers.wandb.WandbLogger>
+[2025-07-25 11:19:49,839][src.training_pipeline][INFO] - Instantiating trainer <pytorch_lightning.Trainer>
+[2025-07-25 11:19:49,843][pytorch_lightning.utilities.rank_zero][INFO] - Using 16bit native Automatic Mixed Precision (AMP)
+[2025-07-25 11:19:49,843][pytorch_lightning.utilities.rank_zero][INFO] - Trainer already configured with model summary callbacks: [<class 'pytorch_lightning.callbacks.rich_model_summary.RichModelSummary'>]. Skipping setting a default `ModelSummary` callback.
+[2025-07-25 11:19:49,845][pytorch_lightning.utilities.rank_zero][INFO] - GPU available: True, used: True
+[2025-07-25 11:19:49,845][pytorch_lightning.utilities.rank_zero][INFO] - TPU available: False, using: 0 TPU cores
+[2025-07-25 11:19:49,845][pytorch_lightning.utilities.rank_zero][INFO] - IPU available: False, using: 0 IPUs
+[2025-07-25 11:19:49,846][pytorch_lightning.utilities.rank_zero][INFO] - HPU available: False, using: 0 HPUs
+[2025-07-25 11:19:49,846][src.training_pipeline][INFO] - Logging hyperparameters!
+[2025-07-25 11:19:49,852][src.training_pipeline][INFO] - Starting training!
+[2025-07-25 11:19:50,168][pytorch_lightning.accelerators.gpu][INFO] - LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+[2025-07-25 11:20:35,225][src.utils][INFO] - Disabling python warnings! <config.ignore_warnings=True>
+[2025-07-25 11:20:35,225][src.utils][INFO] - Printing config tree with Rich! <config.print_config=True>
+[2025-07-25 11:20:35,265][pytorch_lightning.utilities.seed][INFO] - Global seed set to 56
+[2025-07-25 11:20:35,269][src.training_pipeline][INFO] - Instantiating datamodule <src.datamodules.mashup_datamodule_new.MashupDataModule>
+[2025-07-25 11:20:35,481][src.training_pipeline][INFO] - Instantiating model <src.models.GSL-Mash.GSL_MASH>
+[2025-07-25 11:20:38,466][src.training_pipeline][INFO] - Instantiating callback <pytorch_lightning.callbacks.ModelCheckpoint>
+[2025-07-25 11:20:38,470][src.training_pipeline][INFO] - Instantiating callback <pytorch_lightning.callbacks.EarlyStopping>
+[2025-07-25 11:20:38,471][src.training_pipeline][INFO] - Instantiating callback <pytorch_lightning.callbacks.RichModelSummary>
+[2025-07-25 11:20:38,472][src.training_pipeline][INFO] - Instantiating callback <pytorch_lightning.callbacks.RichProgressBar>
+[2025-07-25 11:20:38,472][src.training_pipeline][INFO] - Instantiating callback <src.callbacks.wandb_callbacks.WatchModel>
+[2025-07-25 11:20:38,475][src.training_pipeline][INFO] - Instantiating callback <src.callbacks.wandb_callbacks.LogMetricsAndRunningTime>
+[2025-07-25 11:20:38,477][src.training_pipeline][INFO] - Instantiating logger <pytorch_lightning.loggers.wandb.WandbLogger>
+[2025-07-25 11:20:40,845][src.training_pipeline][INFO] - Instantiating trainer <pytorch_lightning.Trainer>
+[2025-07-25 11:20:40,849][pytorch_lightning.utilities.rank_zero][INFO] - Using 16bit native Automatic Mixed Precision (AMP)
+[2025-07-25 11:20:40,850][pytorch_lightning.utilities.rank_zero][INFO] - Trainer already configured with model summary callbacks: [<class 'pytorch_lightning.callbacks.rich_model_summary.RichModelSummary'>]. Skipping setting a default `ModelSummary` callback.
+[2025-07-25 11:20:40,850][pytorch_lightning.utilities.rank_zero][INFO] - GPU available: True, used: True
+[2025-07-25 11:20:40,850][pytorch_lightning.utilities.rank_zero][INFO] - TPU available: False, using: 0 TPU cores
+[2025-07-25 11:20:40,851][pytorch_lightning.utilities.rank_zero][INFO] - IPU available: False, using: 0 IPUs
+[2025-07-25 11:20:40,851][pytorch_lightning.utilities.rank_zero][INFO] - HPU available: False, using: 0 HPUs
+[2025-07-25 11:20:40,851][src.training_pipeline][INFO] - Logging hyperparameters!
+[2025-07-25 11:20:40,857][src.training_pipeline][INFO] - Starting training!
+[2025-07-25 11:20:41,160][pytorch_lightning.accelerators.gpu][INFO] - LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+[2025-07-25 11:24:33,191][src.utils][INFO] - Disabling python warnings! <config.ignore_warnings=True>
+[2025-07-25 11:24:33,192][src.utils][INFO] - Printing config tree with Rich! <config.print_config=True>
+[2025-07-25 11:24:33,231][pytorch_lightning.utilities.seed][INFO] - Global seed set to 56
+[2025-07-25 11:24:33,234][src.training_pipeline][INFO] - Instantiating datamodule <src.datamodules.mashup_datamodule_new.MashupDataModule>
+[2025-07-25 11:24:33,457][src.training_pipeline][INFO] - Instantiating model <src.models.GSL-Mash.GSL_MASH>
+[2025-07-25 11:24:36,476][src.training_pipeline][INFO] - Instantiating callback <pytorch_lightning.callbacks.ModelCheckpoint>
+[2025-07-25 11:24:36,481][src.training_pipeline][INFO] - Instantiating callback <pytorch_lightning.callbacks.EarlyStopping>
+[2025-07-25 11:24:36,482][src.training_pipeline][INFO] - Instantiating callback <pytorch_lightning.callbacks.RichModelSummary>
+[2025-07-25 11:24:36,483][src.training_pipeline][INFO] - Instantiating callback <pytorch_lightning.callbacks.RichProgressBar>
+[2025-07-25 11:24:36,483][src.training_pipeline][INFO] - Instantiating callback <src.callbacks.wandb_callbacks.WatchModel>
+[2025-07-25 11:24:36,486][src.training_pipeline][INFO] - Instantiating callback <src.callbacks.wandb_callbacks.LogMetricsAndRunningTime>
+[2025-07-25 11:24:36,488][src.training_pipeline][INFO] - Instantiating logger <pytorch_lightning.loggers.wandb.WandbLogger>
+[2025-07-25 11:24:38,903][src.training_pipeline][INFO] - Instantiating trainer <pytorch_lightning.Trainer>
+[2025-07-25 11:24:38,914][pytorch_lightning.utilities.rank_zero][INFO] - Using 16bit native Automatic Mixed Precision (AMP)
+[2025-07-25 11:24:38,914][pytorch_lightning.utilities.rank_zero][INFO] - Trainer already configured with model summary callbacks: [<class 'pytorch_lightning.callbacks.rich_model_summary.RichModelSummary'>]. Skipping setting a default `ModelSummary` callback.
+[2025-07-25 11:24:38,914][pytorch_lightning.utilities.rank_zero][INFO] - GPU available: True, used: True
+[2025-07-25 11:24:38,914][pytorch_lightning.utilities.rank_zero][INFO] - TPU available: False, using: 0 TPU cores
+[2025-07-25 11:24:38,914][pytorch_lightning.utilities.rank_zero][INFO] - IPU available: False, using: 0 IPUs
+[2025-07-25 11:24:38,914][pytorch_lightning.utilities.rank_zero][INFO] - HPU available: False, using: 0 HPUs
+[2025-07-25 11:24:38,914][src.training_pipeline][INFO] - Logging hyperparameters!
+[2025-07-25 11:24:38,924][src.training_pipeline][INFO] - Starting training!
+[2025-07-25 11:24:39,818][pytorch_lightning.accelerators.gpu][INFO] - LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+[2025-07-25 12:12:21,602][src.training_pipeline][INFO] - Starting testing!
+[2025-07-25 12:12:21,976][pytorch_lightning.utilities.rank_zero][INFO] - Restoring states from the checkpoint path at checkpoints/epoch_128.ckpt
+[2025-07-25 12:12:22,065][pytorch_lightning.accelerators.gpu][INFO] - LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+[2025-07-25 12:12:22,124][pytorch_lightning.utilities.rank_zero][INFO] - Loaded model weights from checkpoint at checkpoints/epoch_128.ckpt
+[2025-07-25 12:12:45,176][src.training_pipeline][INFO] - Finalizing!
+[2025-07-25 12:12:47,673][src.training_pipeline][INFO] - Best model ckpt at checkpoints/epoch_128.ckpt
+[2025-07-26 15:25:24,907][src.utils][INFO] - Disabling python warnings! <config.ignore_warnings=True>
+[2025-07-26 15:25:24,908][src.utils][INFO] - Printing config tree with Rich! <config.print_config=True>
+[2025-07-26 15:25:24,953][pytorch_lightning.utilities.seed][INFO] - Global seed set to 56
+[2025-07-26 15:25:25,020][src.training_pipeline][INFO] - Instantiating datamodule <src.datamodules.mashup_datamodule_new.MashupDataModule>
+[2025-07-26 15:25:26,460][src.training_pipeline][INFO] - Instantiating model <src.models.GSL-Mash.GSL_MASH>
+[2025-07-26 15:25:33,029][src.training_pipeline][INFO] - Instantiating callback <pytorch_lightning.callbacks.ModelCheckpoint>
+[2025-07-26 15:25:33,036][src.training_pipeline][INFO] - Instantiating callback <pytorch_lightning.callbacks.EarlyStopping>
+[2025-07-26 15:25:33,037][src.training_pipeline][INFO] - Instantiating callback <pytorch_lightning.callbacks.RichModelSummary>
+[2025-07-26 15:25:33,038][src.training_pipeline][INFO] - Instantiating callback <pytorch_lightning.callbacks.RichProgressBar>
+[2025-07-26 15:25:33,038][src.training_pipeline][INFO] - Instantiating callback <src.callbacks.wandb_callbacks.WatchModel>
+[2025-07-26 15:25:33,042][src.training_pipeline][INFO] - Instantiating callback <src.callbacks.wandb_callbacks.LogMetricsAndRunningTime>
+[2025-07-26 15:25:33,044][src.training_pipeline][INFO] - Instantiating logger <pytorch_lightning.loggers.wandb.WandbLogger>
+[2025-07-26 15:25:36,941][src.training_pipeline][INFO] - Instantiating trainer <pytorch_lightning.Trainer>
+[2025-07-26 15:25:37,141][pytorch_lightning.utilities.rank_zero][INFO] - Using 16bit native Automatic Mixed Precision (AMP)
+[2025-07-26 15:25:37,141][pytorch_lightning.utilities.rank_zero][INFO] - Trainer already configured with model summary callbacks: [<class 'pytorch_lightning.callbacks.rich_model_summary.RichModelSummary'>]. Skipping setting a default `ModelSummary` callback.
+[2025-07-26 15:25:37,143][pytorch_lightning.utilities.rank_zero][INFO] - GPU available: True, used: True
+[2025-07-26 15:25:37,143][pytorch_lightning.utilities.rank_zero][INFO] - TPU available: False, using: 0 TPU cores
+[2025-07-26 15:25:37,143][pytorch_lightning.utilities.rank_zero][INFO] - IPU available: False, using: 0 IPUs
+[2025-07-26 15:25:37,143][pytorch_lightning.utilities.rank_zero][INFO] - HPU available: False, using: 0 HPUs
+[2025-07-26 15:25:37,143][src.training_pipeline][INFO] - Logging hyperparameters!
+[2025-07-26 15:25:37,149][src.training_pipeline][INFO] - Starting training!
+[2025-07-26 15:25:37,394][pytorch_lightning.accelerators.gpu][INFO] - LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+[2025-07-26 15:26:18,973][src.training_pipeline][INFO] - Starting testing!
+[2025-07-26 15:26:19,101][pytorch_lightning.utilities.rank_zero][INFO] - Restoring states from the checkpoint path at checkpoints/epoch_002.ckpt
+[2025-07-26 15:26:19,183][pytorch_lightning.accelerators.gpu][INFO] - LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+[2025-07-26 15:26:19,193][pytorch_lightning.utilities.rank_zero][INFO] - Loaded model weights from checkpoint at checkpoints/epoch_002.ckpt
+[2025-07-26 15:26:30,830][src.training_pipeline][INFO] - Finalizing!
+[2025-07-26 15:26:32,873][src.training_pipeline][INFO] - Best model ckpt at checkpoints/epoch_002.ckpt

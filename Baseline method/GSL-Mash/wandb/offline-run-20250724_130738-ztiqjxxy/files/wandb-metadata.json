@@ -1,0 +1,49 @@
+{
+    "os": "Windows-10-10.0.26100-SP0",
+    "python": "3.10.16",
+    "heartbeatAt": "2025-07-24T05:07:39.913634",
+    "startedAt": "2025-07-24T05:07:38.248257",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        "experiment=gsl-mash/partial_bert"
+    ],
+    "state": "running",
+    "program": "E:\\python project\\mashup \u5bf9\u6bd4\u5b66\u4e60\\GSL-Mash\\train.py",
+    "codePathLocal": "train.py",
+    "codePath": "train.py",
+    "host": "Hylance",
+    "username": "wangy",
+    "executable": "D:\\anaconda\\envs\\gsl-mash\\python.exe",
+    "cpu_count": 8,
+    "cpu_count_logical": 16,
+    "cpu_freq": {
+        "current": 4001.0,
+        "min": 0.0,
+        "max": 4001.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 4001.0,
+            "min": 0.0,
+            "max": 4001.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 299.99901962280273,
+            "used": 288.2454948425293
+        }
+    },
+    "gpu": "NVIDIA GeForce RTX 4050 Laptop GPU",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce RTX 4050 Laptop GPU",
+            "memory_total": 6439305216
+        }
+    ],
+    "memory": {
+        "total": 31.27869415283203
+    }
+}

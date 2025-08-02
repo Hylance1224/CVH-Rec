@@ -1,0 +1,109 @@
+CONFIG
++-- datamodule
+|   `-- _target_: src.datamodules.mashup_datamodule_new.MashupDataModule                                                
+|       data_dir: E:\python project\mashup 对比学习\GSL-Mash/data/api_mashup                                            
+|       num_candidates: 1382                                                                                            
+|       mashup_path: embeddings/text_bert_mashup_embeddings.npy                                                         
+|       api_path: embeddings/partial/text_bert_api_embeddings.npy                                                       
+|       invoked_path: partial_invocation.pkl                                                                            
+|       pair_in_training: true                                                                                          
+|       negative_samples_ratio: 5                                                                                       
+|       train_val_test_split:                                                                                           
+|       - 5014                                                                                                          
+|       - 1433                                                                                                          
+|       - 716                                                                                                           
+|       batch_size: 256                                                                                                 
+|       num_workers: 0                                                                                                  
+|       pin_memory: true                                                                                                
+|                                                                                                                       
++-- model
+|   `-- _target_: src.models.GSL-Mash.GSL_MASH                                                                          
+|       data_dir: E:\python project\mashup 对比学习\GSL-Mash/data/api_mashup                                            
+|       api_embed_path: embeddings/partial/text_bert_api_embeddings.npy                                                 
+|       mashup_embed_channels: 768                                                                                      
+|       mlp_output_channels: 900                                                                                        
+|       weight_decay: 1.0e-05                                                                                           
+|       lr: 0.0001                                                                                                      
+|                                                                                                                       
++-- callbacks
+|   `-- model_checkpoint:                                                                                               
+|         _target_: pytorch_lightning.callbacks.ModelCheckpoint                                                         
+|         monitor: val/F1                                                                                               
+|         mode: max                                                                                                     
+|         save_top_k: 1                                                                                                 
+|         save_last: true                                                                                               
+|         verbose: false                                                                                                
+|         dirpath: checkpoints/                                                                                         
+|         filename: epoch_{epoch:03d}                                                                                   
+|         auto_insert_metric_name: false                                                                                
+|       early_stopping:                                                                                                 
+|         _target_: pytorch_lightning.callbacks.EarlyStopping                                                           
+|         monitor: val/F1                                                                                               
+|         mode: max                                                                                                     
+|         patience: 30                                                                                                  
+|         min_delta: 0                                                                                                  
+|       model_summary:                                                                                                  
+|         _target_: pytorch_lightning.callbacks.RichModelSummary                                                        
+|         max_depth: -1                                                                                                 
+|       rich_progress_bar:                                                                                              
+|         _target_: pytorch_lightning.callbacks.RichProgressBar                                                         
+|       watch_model:                                                                                                    
+|         _target_: src.callbacks.wandb_callbacks.WatchModel                                                            
+|         log: all                                                                                                      
+|         log_freq: 10                                                                                                  
+|       log_metrics:                                                                                                    
+|         _target_: src.callbacks.wandb_callbacks.LogMetricsAndRunningTime                                              
+|         top_k_list:                                                                                                   
+|         - 1                                                                                                           
+|         - 2                                                                                                           
+|         - 3                                                                                                           
+|         - 5                                                                                                           
+|         - 10                                                                                                          
+|         - 15                                                                                                          
+|         - 20                                                                                                          
+|         - 25                                                                                                          
+|                                                                                                                       
++-- logger
+|   `-- wandb:                                                                                                          
+|         _target_: pytorch_lightning.loggers.wandb.WandbLogger                                                         
+|         project: service-mashup-recommendation-benchmark                                                              
+|         name: g10k1n1                                                                                                 
+|         save_dir: .                                                                                                   
+|         offline: false                                                                                                
+|         id: null                                                                                                      
+|         log_model: false                                                                                              
+|         prefix: ''                                                                                                    
+|         job_type: train                                                                                               
+|         group: ''                                                                                                     
+|         tags:                                                                                                         
+|         - partial                                                                                                     
+|         - BERT                                                                                                        
+|                                                                                                                       
++-- trainer
+|   `-- _target_: pytorch_lightning.Trainer                                                                             
+|       gpus:                                                                                                           
+|       - 0                                                                                                             
+|       min_epochs: 1                                                                                                   
+|       max_epochs: 3                                                                                                   
+|       precision: 16                                                                                                   
+|       enable_progress_bar: true                                                                                       
+|       progress_bar_refresh_rate: 1                                                                                    
+|       weights_summary: full                                                                                           
+|       resume_from_checkpoint: null                                                                                    
+|                                                                                                                       
++-- original_work_dir
+|   `-- E:\python project\mashup 对比学习\GSL-Mash                                                                      
++-- data_dir
+|   `-- E:\python project\mashup 对比学习\GSL-Mash/data                                                                 
++-- print_config
+|   `-- True                                                                                                            
++-- ignore_warnings
+|   `-- True                                                                                                            
++-- train
+|   `-- True                                                                                                            
++-- test
+|   `-- True                                                                                                            
++-- seed
+|   `-- 56                                                                                                              
+`-- name
+    `-- default                                                                                                         
