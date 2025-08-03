@@ -20,7 +20,7 @@ We recommend setting up the environment using **Conda** to ensure compatibility 
 
     conda create -n CVH-Rec python=3.12.3 -y
     conda activate CVH-Rec 
-    
+
 #### ✅ Step 2: Install PyTorch manually
 
 Visit the official PyTorch installation page [here](https://pytorch.org/) to choose the correct version for your environment.\
@@ -35,7 +35,6 @@ Install all dependencies (except PyTorch) via `requirements.txt`:
     pip install -r requirements.txt
 
 > ⚠️ Note: The `requirements.txt` file includes all necessary libraries **except for PyTorch**, which should be installed separately to match your system and CUDA version.
-
 
 ### 1.2 Usage
 
@@ -97,12 +96,12 @@ After training and testing process is completed, the corresponding evaluation me
 
 ### 1.3 Description of Essential Folders and Files
 
-| Name          | Type   | Description                                                                                                                                                                                                                                                                                       |
-| ------------- | ------ |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| data          | Folder | Data files required for the experiment. Specifically: **api\_tag\_vector.h5** stores the semantic vectors of the API tags, **vector.h5** stores the semantic vectors of mashup descriptions, **api\_vector.h5** stores the semantic vectors of API descriptions, **mashup\_tag.h5** stores the semantic vectors of mashup tags |
-| Original Dataset | Folder | Save the data related to mashups and APIs used in the experiment, including the invocation relationships between mashups and APIs, the descriptions and tags of mashups, and the descriptions and tags of APIs.                                                                                   |
-                                                                                                                                                                                      
-| run.py        | File   | A **wrapper script** that automates the entire process of training and testing the CVH-Rec model |                                                               | utility       | Folder | Tools and essential libraries used by CVH-Rec                                                                                                                                                                                                                                                     |
+| Name             | Type   | Description                                                                                                                                                                                                                                                                                                                    |
+| ---------------- | ------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| data             | Folder | Data files required for the experiment. Specifically: **api\_tag\_vector.h5** stores the semantic vectors of the API tags, **vector.h5** stores the semantic vectors of mashup descriptions, **api\_vector.h5** stores the semantic vectors of API descriptions, **mashup\_tag.h5** stores the semantic vectors of mashup tags |
+| Original Dataset | Folder | Save the data related to mashups and APIs used in the experiment, including the invocation relationships between mashups and APIs, the descriptions and tags of mashups, and the descriptions and tags of APIs.                                                                                                                |
+| run.py           | File   | A **wrapper script** that automates the entire process of training and testing the CVH-Rec model under                                                                                                                                                                                                                         |
+| utility          | Folder | Tools and essential libraries used by CVH-Rec                                                                                                                                                                                                                                                                                  |
 
 ####
 
